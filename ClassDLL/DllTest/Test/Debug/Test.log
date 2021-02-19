@@ -1,0 +1,19 @@
+﻿生成启动时间为 2021/2/18 19:16:30。
+     1>项目“C:\Users\Administrator\Desktop\vs3013\dllDemo\ClassDLL\DllTest\Test\Test.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp Test.cpp
+         Test.cpp
+         stdafx.cpp
+         正在生成代码...
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\vs3013\dllDemo\ClassDLL\DllTest\Debug\Test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\vs3013\dllDemo\ClassDLL\DllTest\Debug\Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\vs3013\dllDemo\ClassDLL\DllTest\Debug\Test.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\Test.obj
+     1>Test.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall MyClass::MyClass(void)" (__imp_??0MyClass@@QAE@XZ)，该符号在函数 _wmain 中被引用
+     1>Test.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall MyClass::~MyClass(void)" (__imp_??1MyClass@@QAE@XZ)，该符号在函数 _wmain 中被引用
+     1>Test.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: int __thiscall MyClass::TestFunction(int,int)" (__imp_?TestFunction@MyClass@@QAEHHH@Z)，该符号在函数 _wmain 中被引用
+     1>C:\Users\Administrator\Desktop\vs3013\dllDemo\ClassDLL\DllTest\Debug\Test.exe : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Administrator\Desktop\vs3013\dllDemo\ClassDLL\DllTest\Test\Test.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.10

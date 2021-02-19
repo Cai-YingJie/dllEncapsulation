@@ -1,0 +1,14 @@
+﻿生成启动时间为 2021/2/15 14:26:33。
+     1>项目“C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\Test\Test.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Main.cpp Main_ExportClassDLL.cpp
+         Main.cpp
+         Main_ExportClassDLL.cpp
+     1>Main_ExportClassDLL.cpp(23): error C2228: “.Add”的左边必须有类/结构/联合
+         Main_ExportClassDLL.cpp(23): note: 类型是“ImgMath *”
+         Main_ExportClassDLL.cpp(23): note: 是否改用“->”?
+     1>已完成生成项目“C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\Test\Test.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.28

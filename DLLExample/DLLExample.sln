@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenDLL", "GenDLL\GenDLL.vcxproj", "{C69B947E-0105-4129-961C-0EE0C218621B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserDLL", "UserDLL\UserDLL.vcxproj", "{C1181616-6A0D-4910-A75D-9469FFEF44B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69B947E-0105-4129-961C-0EE0C218621B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C69B947E-0105-4129-961C-0EE0C218621B}.Debug|Win32.Build.0 = Debug|Win32
+		{C69B947E-0105-4129-961C-0EE0C218621B}.Release|Win32.ActiveCfg = Release|Win32
+		{C69B947E-0105-4129-961C-0EE0C218621B}.Release|Win32.Build.0 = Release|Win32
+		{C1181616-6A0D-4910-A75D-9469FFEF44B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1181616-6A0D-4910-A75D-9469FFEF44B0}.Debug|Win32.Build.0 = Debug|Win32
+		{C1181616-6A0D-4910-A75D-9469FFEF44B0}.Release|Win32.ActiveCfg = Release|Win32
+		{C1181616-6A0D-4910-A75D-9469FFEF44B0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿生成启动时间为 2021/2/15 14:26:32。
+     1>项目“C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\ExportClassDLL\ExportClassDLL.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EXPORTCLASSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Release\ExportClassDLL.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EXPORTCLASSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D EXPORTCLASSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\ExportClassDLL.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt ExportClassDLL.cpp
+         ExportClassDLL.cpp
+       Link:
+         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\x64\Release\ExportClassDLL.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\x64\Release\ExportClassDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\x64\Release\ExportClassDLL.lib" /MACHINE:X64 /DLL x64\Release\dllmain.obj
+         x64\Release\ExportClassDLL.obj
+         x64\Release\stdafx.obj
+           正在创建库 C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\x64\Release\ExportClassDLL.lib 和对象 C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\x64\Release\ExportClassDLL.exp
+         正在生成代码
+         All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         ExportClassDLL.vcxproj -> C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\x64\Release\ExportClassDLL.dll
+     1>已完成生成项目“C:\Users\Administrator\Desktop\vs3013\ExportClassDLL\ExportClassDLL\ExportClassDLL.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.44
